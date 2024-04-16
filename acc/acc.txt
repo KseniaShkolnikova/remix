@@ -1,0 +1,7 @@
+1 0xaAe6319551C749af3ffcc394EEC18dAB97D08A8f (1111)
+2 0x62A1994a62F9976403a1773aD81edEC9e6107A9a
+3 0xc0FD3A81D5271615650aecaC52Dc2D4fb8e3e910
+4 0xe63F52cf99f6E4e6C36b1882F7A280E4B9d7B132
+5 0x716A499E47f9Bb9453491a6b82966860273043d0
+
+geth --datadir data --networkid 220320241433 --unlock 0xaAe6319551C749af3ffcc394EEC18dAB97D08A8f --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0xaAe6319551C749af3ffcc394EEC18dAB97D08A8f
